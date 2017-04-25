@@ -1,5 +1,3 @@
-<style type="text/css">
-
 ::-webkit-scrollbar {
   width: 5px;
   height: 0px;
@@ -14,73 +12,36 @@ div.descone::-webkit-scrollbar {
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background: {color:Accent};
-  border: 0px none {color:Accent};
+  background: #5d4947;
+  border: 0px none #5d4947;
   border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: {color:Accent};
+  background: #5d4947;
 }
 ::-webkit-scrollbar-thumb:active {
-  background: {color:Accent};
+  background: #5d4947;
 }
 ::-webkit-scrollbar-track {
-  background: {color:Background};
-  border: 0px none {color:Background};
+  background: #b7b7b7;
+  border: 0px none #b7b7b7;
   border-radius: 0px;
 }
 ::-webkit-scrollbar-track:hover {
-  background: {color:Background};
+  background: #b7b7b7;
 }
 ::-webkit-scrollbar-track:active {
-  background: {color:Background};
+  background: #b7b7b7;
 }
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
 
 
-.tooltip{
-    display: inline;
-    position: relative;
-}
-
-#s-m-t-tooltip {
-    max-width:300px; /*how big the tooltip can be at most*/
-    font-family:'lato';
-    border-radius: 15px; /*change your border radius*/
-    padding:3px 10px 3px 10px; /*padding inside tooltip*/
-    margin:20px 7px -2px 20px; /*distance from word*/
-    background-color:{color:Background}; /*background color*/ 
-    border:1px solid {color:Posts}; /*border info*/
-    font-size:7px; /*tooltip font size*/
-    text-transform:uppercase; /*makes the tooltip title uppercase*/
-    color:{color:Text}; /*tooltip font color*/
-    z-index:999999999999999999999999999999999999;
-}
-
-#s-m-t-tooltip:first-letter {
-    font-family:'zombiecat';
-    color:{color:Accent};
-    font-weight:bold;
-    font-size:8px;
-}
-
-
-::-moz-selection { /* Code for Firefox */
-    color: {color:Background};
-    background:{color:Accent};
-}
-
-::selection {
-    color: {color:Background}; 
-    background: {color:Accent};
-}
-
 body { 
-    background:url('http://static.tumblr.com/6hf3jnb/yUNooi6x7/background.png') {color:Background} repeat;
+    background:url('http://static.tumblr.com/6hf3jnb/yUNooi6x7/background.png') #000 repeat;
     background-size:cover;
-    color:{color:Text};
+    color:#1a1a1a;
     font-size:10px; 
     text-align: justify;
     font-family:'Lato', sans-serif;
@@ -88,30 +49,30 @@ body {
 
 a {
     text-decoration: none;
-    color:{color:Links};
+    color:#666666;
 }
 
 
 h1 {
     font-size:14px;
      margin:0;
-     color:{color:Links};
+     color:#666666;
 }
 
 h2 {
     font-size:13px;
      margin:0;
-     color:{color:Links};
+     color:#666666;
 }
 
 h3 {
     font-size:12px;
     text-align:center;
     padding:5px;
-    color:{color:Links};
+    color:#666666;
     margin:0;
     text-transform:uppercase;
-    border-bottom:1px solid {color:Border};
+    border-bottom:1px solid #b7b7b7;
 }
 
 small, sub, sup, big {
@@ -122,7 +83,7 @@ i, em {
     font-style: italic;
     font-size:11px;
     letter-spacing:2px;
-    color:{color:Accent};
+    color:#5d4947;
     margin:2px;
     font-family:'Oswald', calibri, arial, verdana;
 }
@@ -130,7 +91,7 @@ i, em {
 b, strong {
     font-weight:bold;
         font-size:11px;
-    color:{color:Accent};
+    color:#5d4947;
         font-family:'Roboto', calibri, arial, verdana;
 }
 
@@ -146,15 +107,15 @@ p {
 blockquote {
     margin:0px 20px 10px 20px;
     padding:1px 5px;
-    border-left:2px solid {color:Accent};
-    background:{color:Border};
+    border-left:2px solid #5d4947;
+    background:#b7b7b7;
 }
 
 div hr {
  margin-top:5px;
  height: 1px;
  border:0px solid transparent;
- background:{color:Accent};
+ background:#5d4947;
 }
 
 a, img, .cover, .tags, .avatar  {
@@ -167,7 +128,7 @@ a, img, .cover, .tags, .avatar  {
 
 /* posts */
 
-#knk { 
+#container { 
     margin: auto;
     left: 0;
     top: 0;
@@ -199,7 +160,7 @@ article#mirai {
     padding:20px;
     border-radius:15px;
     right: 10px;
-    background:{color:Posts};
+    background:#b7b7b7;
 
 }
 
@@ -240,7 +201,7 @@ article#mirai {
 }
 
 .source {
-    border-top:1px solid {color:Border};
+    border-top:1px solid #b7b7b7;
     font-size:10px;
     padding:5px;
     margin-top:5px;
@@ -261,7 +222,7 @@ ul.chat {
 
 
 .chat li.even {
-    background-color: {color:Border};
+    background-color:#b7b7b7;
 }
 
 .label {
@@ -278,7 +239,7 @@ ul.chat {
 }
     
 .playbox {
-    background-color: {color:Posts}; 
+    background-color: #b7b7b7; 
     position: absolute; 
     z-index: 1000;
     width:295px;
@@ -404,7 +365,7 @@ ul.chat {
 }
 
 .tags a { 
-    color:{color:Accent};
+    color:#5d4947;
     padding: 2px;
     font-weight:bold;
     margin-right:3px;
@@ -418,14 +379,14 @@ ul.chat {
 
 .perma {
     padding:2px 5px;
-    color:{color:Links};
+    color:#666666;
     text-transform:uppercase;
     font-size:8px;
     letter-spacing:0.5px;
     display:block;
     height:17px;
     line-height: 230%;
-    background-color:{color:Border};
+    background-color:#b7b7b7;
     width: auto;
 }
 
@@ -440,7 +401,7 @@ ul.chat {
 }
 
 .permatags a { 
-    color:{color:Accent};
+    color:#5d4947;
     padding: 2px;
     font-weight:bold;
     margin-right:3px;
@@ -514,7 +475,7 @@ ul.chat {
     text-transform:uppercase;
     border-top-left-radius:15px;
     font-size:8px;
-    color:{color:Background};
+    color:#b7b7b7;
     position:absolute;
     left:20px; top:-65px;
     z-index:99;
@@ -582,9 +543,9 @@ ul.chat {
 }
 
 .links a:hover, li.active a:hover{
-    background:{color:Posts};
+    background:#b7b7b7;
     color:#c9c9c9;
-    border:1px solid {color:Posts};
+    border:1px solid #b7b7b7;
     transform:scale(1.4) rotate(0deg);
     -webkit-transform:scale(1.4) rotate(0deg);
 }
@@ -595,7 +556,7 @@ ul.chat {
     overflow:scroll;
     text-transform:uppercase;
     border:1px solid #ccc;
-    background:{color:Posts};
+    background:#b7b7b7;
     padding:15px;
     border-radius:15px;
     font-size:8px;
@@ -607,7 +568,7 @@ ul.chat {
 
 .descone h1 {
     display:inline-block;
-    color:{color:Accent};
+    color:#5d4947;
 }
 
 
@@ -652,7 +613,7 @@ ul.chat {
     border-top:1px solid #a29f9f;
 }
 
-#topbar:hover .lefttitty {
+#topbar:hover .maintitle {
     right:15px;
     -webkit-transform:translate(10px,0%);
     transform:translate(10px,0%);
@@ -663,7 +624,7 @@ ul.chat {
 }
 
 
-#topbar:hover .righttitty {
+#topbar:hover .subtitle {
     right:30px;
     -webkit-transform:translate(0px,0%);
     transform:translate(0px,0%);
@@ -678,7 +639,7 @@ ul.chat {
 
 
 
-.lefttitty {
+.maintitle {
         text-shadow: 0px 0px 0.5px rgba(0,0,0,.2);
     position:absolute;
     top:5px; right:35px;
@@ -696,10 +657,10 @@ ul.chat {
 }
 
 
-.righttitty {
+.subtitle {
     position:absolute;
     top:33px; right:5px;
-    color:{color:Accent};
+    color:#5d4947;
     font-size:15px;
     padding:5px 15px;
     letter-spacing:3px;
@@ -731,7 +692,7 @@ ul.chat {
             padding:5px;
         background:#c9c9c9;
         border-radius:50%;
-        border:2px solid {color:Accent};
+        border:2px solid #5d4947;
 }
 
 .bubblesmall {
@@ -744,7 +705,7 @@ ul.chat {
             padding:5px;
         background:#c9c9c9;
         border-radius:50%;
-        border:2px solid {color:Accent};
+        border:2px solid #5d4947;
     
 }
 
@@ -808,14 +769,13 @@ position: absolute;
 .ablinks a {
     text-align:left;
     width:120px;
-    color:{color:Background};
+    color:#b7b7b7;
     padding:5px 10px;
-    background-color:{color:Accent};
+    background-color:#5d4947;
 }
 
 .ablinks a:hover {
-    color:{color:Accent};
+    color:#5d4947;
     padding:5px 10px;
-    background-color:{color:Border};
-}
-
+    background-color:#b7b7b7;
+} 
